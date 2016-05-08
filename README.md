@@ -1,5 +1,5 @@
 # fade
 a daily note tool
 
-support daily/monthly/yearly matters, ideas, thought
+support dream, matter, idea record
 support induction and category
