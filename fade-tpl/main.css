@@ -1,0 +1,52 @@
+.main{
+    flex: 3;
+    width: 1px;
+    /*height: 100%;*/
+}
+.main header{
+	height: 48px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #ddd;
+}
+.title-bar{
+	text-align: center;
+	height: 48px;
+	line-height: 48px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.addnew{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 100%;
+	padding: 16px 24px;
+	/*overflow-x: scroll;*/
+}
+.record-info{
+	font-size: 14px;
+	color: #999;
+	margin-bottom: 8px;
+}
+.record-info > *{
+	margin-left: 6px;
+}
+.input{
+	width: 100%;
+	font-size: 28px;
+	padding: 7px 12px 6px 12px;
+	font-size: 	15px;
+	line-height: 1.6;
+	border: 1px dotted #ccc;
+	outline: 0;
+}
+.input:empty:before{
+	content:attr(placeholder);
+    color: green;
+}
+.input+.input{
+	margin-top: 12px;
+}
+.input::selection{
+	background-color: #ddd;
+}
